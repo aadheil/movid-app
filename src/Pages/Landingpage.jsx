@@ -33,7 +33,7 @@ function Landingpage() {
         <div className="col">
 
         <Card style={{ width: '18rem' }} className='shadow'>
-      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1698136689~exp=1698137289~hmac=1ec274ce04874c595ea97ba1469287e09b8a1cd32b8097274feb799a74b501f9" />
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://media.istockphoto.com/vectors/back-row-view-of-a-cinema-screen-vector-id96611482?k=6&m=96611482&s=612x612&w=0&h=BXbF4C9zzmv0XSzns3cHa6nkXMSDPyRCh4cLqwfIuGk=" />
       <Card.Body>
         <Card.Title className='text-success'>Know About A Movie</Card.Title>
         <Card.Text className='text-light'>
@@ -49,7 +49,7 @@ function Landingpage() {
         <div className="col">
 
         <Card style={{ width: '18rem' }}>
-      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-photo/man-watching-movie-theater-seats-spectacle-generative-ai_188544-7929.jpg?w=740&t=st=1698137157~exp=1698137757~hmac=2d6bbe2c2f426ea354ef214164215ccb2a03e8e4c26b8c7109d4324733c08e30" />
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://www.psychiatryadvisor.com/wp-content/uploads/sites/8/2019/05/girl-watching-video-on-mobile-phone_SH_379989589.jpg" />
       <Card.Body>
         <Card.Title className='text-success'>Watch Trailer</Card.Title>
         <Card.Text className='text-light'>
