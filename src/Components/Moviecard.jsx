@@ -62,7 +62,7 @@ const[sumofrate,setsumofrate]=useState([])
 
 setreviewres(data)
 setreviewforamovie(reviewres.filter(item=>item.movienamer==movies.moviename))
-}
+ }
 
   const handleReviews=async(name)=>{
    
@@ -73,7 +73,7 @@ setreviewres(data)
 setreviewforamovie(reviewres.filter(item=>item.movienamer==movies.moviename))
 
 
-console.log(reviewforamovie);
+// console.log(reviewforamovie);
 
 
   }

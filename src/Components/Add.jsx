@@ -3,7 +3,8 @@ import { Button, Form, Modal } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { uploadAMovie } from '../service/allApi';
-function Add() {
+function Add({setuploadresponse}) {
+  
     const [movie,setmovie]=useState({
         id:"",moviename:"",caption:"",url:"",year:"",genre:"",embedlink:""
       })
@@ -38,6 +39,7 @@ function Add() {
     const {id,moviename,url,year,genre,embedlink,caption}=movie
   if(id && moviename && url && year && genre && embedlink &&caption){
     const response = await uploadAMovie(movie)
+    setuploadresponse(response.data)
     handleClose()
     toast.success("Movie Details Uploaded Successfully")
   }

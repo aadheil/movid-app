@@ -3,7 +3,7 @@ import { Card, Col, Row } from 'react-bootstrap'
 import Moviecard from './Moviecard'
 import { getAllMovies } from '../service/allApi'
 
-function View() {
+function View({uploadresponse}) {
   const[allMovies,setallMovies]=useState([])
 
   const getfullmovies=async()=>{
@@ -14,7 +14,7 @@ function View() {
   }
   useEffect(()=>{
     getfullmovies()
-  },[])
+  },[uploadresponse])
   return (
     <>
     <Row>
