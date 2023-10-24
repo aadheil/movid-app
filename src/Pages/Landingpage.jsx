@@ -28,6 +28,76 @@ function Landingpage() {
 
     </div>
 
+   
+      <div className="row mb-5 mt-4">
+        <div className="col">
+
+        <Card style={{ width: '18rem' }} className='shadow'>
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1698136689~exp=1698137289~hmac=1ec274ce04874c595ea97ba1469287e09b8a1cd32b8097274feb799a74b501f9" />
+      <Card.Body>
+        <Card.Title className='text-success'>Know About A Movie</Card.Title>
+        <Card.Text className='text-light'>
+          You can simply know about a movie and decide wheather it worth to watch.
+        </Card.Text>
+        {/* <Button variant="primary">Go somewhere</Button> */}
+      </Card.Body>
+    </Card>
+
+        </div>
+
+
+        <div className="col">
+
+        <Card style={{ width: '18rem' }}>
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-photo/man-watching-movie-theater-seats-spectacle-generative-ai_188544-7929.jpg?w=740&t=st=1698137157~exp=1698137757~hmac=2d6bbe2c2f426ea354ef214164215ccb2a03e8e4c26b8c7109d4324733c08e30" />
+      <Card.Body>
+        <Card.Title className='text-success'>Watch Trailer</Card.Title>
+        <Card.Text className='text-light'>
+          You can watch trailers of newly released movies
+        </Card.Text>
+        {/* <Button variant="primary">Go somewhere</Button> */}
+      </Card.Body>
+    </Card>
+
+        </div>
+
+
+        <div className="col">
+
+        <Card style={{ width: '18rem' }}>
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-vector/feedback-concept-illustration_114360-4928.jpg?t=st=1698137757~exp=1698138357~hmac=c411dafd0306db030b87efbfda55dd2e8af6e732de1cda8e4d06fa7575672bc4" />
+      <Card.Body>
+        <Card.Title className='text-success'>Reviews</Card.Title>
+        <Card.Text className='text-light'>
+         You can write your own reviews about a movie and can watch the reviews of other users
+        </Card.Text>
+        {/* <Button variant="primary">Go somewhere</Button> */}
+      </Card.Body>
+    </Card>
+
+
+        </div>
+
+
+        <div className="col">
+
+        <Card style={{ width: '18rem' }}>
+      <Card.Img style={{width:'100%',height:'200px'}} variant="top" src="https://img.freepik.com/free-vector/client-review-web-screen-successful-4-4-star-business-opinion_1150-37483.jpg?w=1060&t=st=1698137460~exp=1698138060~hmac=afbd3f4b6cea43349c4b55bd986c9ed4586f145f3ea689f9fb54dd5417763e11" />
+      <Card.Body>
+        <Card.Title className='text-success'>Ratings</Card.Title>
+        <Card.Text className='text-light'>
+          You can add your ratings for a movie and you can also see the overall ratings of a movie
+        </Card.Text>
+        {/* <Button variant="primary">Go somewhere</Button> */}
+      </Card.Body>
+    </Card>
+
+        </div>
+
+      </div>
+
+    
+
     
    
     </>
